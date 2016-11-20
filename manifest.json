@@ -1,5 +1,8 @@
 {
   "manifest_version": 2,
+  "applications": {
+      "gecko": {"id": "testid@foo.com"}
+  },
   "name": "Vimium",
   "version": "1.57",
   "description": "The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim.",
@@ -21,7 +24,9 @@
       "background_scripts/main.js"
     ]
   },
-  "options_page": "pages/options.html",
+  "options_ui": {
+    "page": "pages/options.html"
+  },
   "permissions": [
     "tabs",
     "bookmarks",
@@ -35,8 +40,6 @@
   ],
   "content_scripts": [
     {
-      "_comment":
-        "IMPORTANT: All resources listed here must also be listed in ./pages/vimium_resources.html.",
       "matches": ["<all_urls>"],
       "js": ["lib/utils.js",
              "lib/keyboard_utils.js",
@@ -70,6 +73,7 @@
     }
   ],
   "browser_action": {
+    "browser_style": true,
     "default_icon": "icons/browser_action_disabled.png",
     "default_popup": "pages/popup.html"
   },
