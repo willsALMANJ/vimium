@@ -1,0 +1,80 @@
+Validation Summary:
+
+errors          0              
+notices         0              
+warnings        12             
+
+WARNINGS:
+
+Code                   Message       Description              File          Line   Column
+MANIFEST_PERMISSIONS   /permissio…   See                      manifest.j…                
+                       ns: Unknown   https://mzl.la/1R1n1t0   son                        
+                       permissions   (MDN Docs) for more                                 
+                       "history"     information.                                        
+                       at 2.                                                             
+MANIFEST_PERMISSIONS   /permissio…   See                      manifest.j…                
+                       ns: Unknown   https://mzl.la/1R1n1t0   son                        
+                       permissions   (MDN Docs) for more                                 
+                       "clipboard…   information.                                        
+                       Read" at 3.                                                       
+MANIFEST_PERMISSIONS   /permissio…   See                      manifest.j…                
+                       ns: Unknown   https://mzl.la/1R1n1t0   son                        
+                       permissions   (MDN Docs) for more                                 
+                       "sessions"    information.                                        
+                       at 5.                                                             
+EVAL_STRING_ARG        setTimeout    setTimeout and           background…   143    14    
+                       or            setInterval functions    _scripts/c…                
+                       setInterval   should be called only    ompletion_…                
+                       must have     with function            search.js                  
+                       function as   expressions as their                                
+                       1st arg       first argument                                      
+EVAL_STRING_ARG        setTimeout    setTimeout and           background…   185    21    
+                       or            setInterval functions    _scripts/c…                
+                       setInterval   should be called only    ompletion_…                
+                       must have     with function            search.js                  
+                       function as   expressions as their                                
+                       1st arg       first argument                                      
+TABS_GETALLINWINDOW    "tabs.getA…   This API has been        background…   319    12    
+                       llInWindow"   deprecated by Chrome     _scripts/m…                
+                       is            and has not been         ain.js                     
+                       deprecated    implemented by                                      
+                       or            Firefox.                                            
+                       unimplemen…                                                       
+                       ted                                                               
+TABS_GETALLINWINDOW    "tabs.getA…   This API has been        background…   532    12    
+                       llInWindow"   deprecated by Chrome     _scripts/m…                
+                       is            and has not been         ain.js                     
+                       deprecated    implemented by                                      
+                       or            Firefox.                                            
+                       unimplemen…                                                       
+                       ted                                                               
+TABS_GETSELECTED       "tabs.getS…   This API has been        background…   919    26    
+                       elected" is   deprecated by Chrome     _scripts/m…                
+                       deprecated    and has not been         ain.js                     
+                       or            implemented by                                      
+                       unimplemen…   Firefox.                                            
+                       ted                                                               
+EVAL_STRING_ARG        setTimeout    setTimeout and           content_sc…   108    7     
+                       or            setInterval functions    ripts/link…                
+                       setInterval   should be called only    _hints.js                  
+                       must have     with function                                       
+                       function as   expressions as their                                
+                       1st arg       first argument                                      
+EVAL_STRING_ARG        setTimeout    setTimeout and           lib/utils.…   247    14    
+                       or            setInterval functions    js                         
+                       setInterval   should be called only                               
+                       must have     with function                                       
+                       function as   expressions as their                                
+                       1st arg       first argument                                      
+TABS_GETSELECTED       "tabs.getS…   This API has been        pages/opti…   429    12    
+                       elected" is   deprecated by Chrome     ons.js                     
+                       deprecated    and has not been                                    
+                       or            implemented by                                      
+                       unimplemen…   Firefox.                                            
+                       ted                                                               
+EVAL_STRING_ARG        setTimeout    setTimeout and           pages/vomn…   298    28    
+                       or            setInterval functions    ibar.js                    
+                       setInterval   should be called only                               
+                       must have     with function                                       
+                       function as   expressions as their                                
+                       1st arg       first argument                                      

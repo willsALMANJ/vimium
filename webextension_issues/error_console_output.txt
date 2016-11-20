@@ -1,0 +1,6 @@
+1479664119947	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing permissions.3: Unknown permission "clipboardRead"
+1479664120103	addons.webextension.testid@foo.com	WARN	Loading extension 'testid@foo.com': Reading manifest: Error processing permissions.3: Unknown permission "clipboardRead"
+Vimium logging URL:
+  moz-extension://da6f3302-0e4b-4611-8478-6bf313ca28de/pages/logging.html  bg_utils.js:114:9
+In add-on testid@foo.com, attempting to use listener "tabs.onReplaced", which is unimplemented.  ExtensionParent.jsm:531:71
+
